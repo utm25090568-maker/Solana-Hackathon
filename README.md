@@ -1,5 +1,6 @@
 # Primeros pasos en Solana
-![Banner](./images/SolanaBanner.jpg)
+![Banner](./images/BANNERHACKATHON.png)
+
 Solana es una blockchain de capa 1, es decir, cuenta con su propia infraestructura y no depende de otras blockchains para funcionar. Se encuentra orientada al alto rendimiento, y fue creada para soportar aplicaciones descentralizadas a gran escala con costos mínimos y confirmaciones casi inmediatas. Su diseño prioriza la eficiencia en la ejecución y la paralelización de transacciones.
 
 Rust es el lenguaje principal para desarrollar programas en Solana. A través de él se implementa la lógica on-chain utilizando el modelo de cuentas y programas de la red, permitiendo construir contratos inteligentes seguros, eficientes y altamente optimizables.
@@ -20,6 +21,7 @@ Hemos preparado el siguiente repositorio para que comiences a trabajar lo antes 
 * Uso de Codespaces 
 * Uso de Solana Playground
 
+## Codespaces (Github)
 Puedes comenzar dándole Fork a este repositorio (abajo te explicamos cómo 👇)
 
 ![fork](./images/fork.png)
@@ -30,7 +32,13 @@ Puedes comenzar dándole Fork a este repositorio (abajo te explicamos cómo 👇
 
     ![codespaces](./images/codespaces.png)
 
-* Por último, presiona **`Create codespace on master`**. Esto abrirá el proyecto en una interfaz gráfica de Visual Studio Code e instalará todas las herramientas necesarias para desarrollar con Move.
+Por último, presiona **`Create codespace on master`**. Esto abrirá el proyecto en una interfaz gráfica de Visual Studio Code e instalará todas las herramientas necesarias para empezar a programar (es muy importante esperar a que este proceso termine):
+
+![instalacion](./images/Instalacion.png)
+
+El proceso de instalación finaliza cuando la terminal se reinicia y queda de la siguiente manera:
+
+![fin](images/fin.png)
 
 ## Solana Playground
 Solana Playground es un entorno de desarrollo online que permite escribir, compilar, desplegar y probar programas de Solana directamente desde el navegador, sin necesidad de instalar herramientas locales como Rust, Solana CLI o Anchor.
