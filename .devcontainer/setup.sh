@@ -45,3 +45,5 @@ solana-keygen new --no-bip39-passphrase --outfile ~/.config/solana/id.json
 anchor build
 
 echo "Entorno listo para usar!!! :D"
+
+export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
