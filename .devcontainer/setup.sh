@@ -29,6 +29,15 @@ curl -o- https://raw.githubusercontent.com/nvm-sh/nvm/v0.40.4/install.sh | bash
 
 nvm install node 
 
-sudo npm install -g typescript   
+npm install -g typescript   
 
+anchor init template_codespaces
+
+cd template_codespaces
+
+solana config set --url https://api.devnet.solana.com
+
+solana-keygen new --no-bip39-passphrase --outfile ~/.config/solana/id.json 
+
+anchor build
 

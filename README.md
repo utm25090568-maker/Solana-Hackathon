@@ -1,4 +1,4 @@
-# Primeros pasos en Solana
+# Solana Hackathon con WayLearn
 ![Banner](./images/BANNERHACKATHON.png)
 
 Solana es una blockchain de capa 1, es decir, cuenta con su propia infraestructura y no depende de otras blockchains para funcionar. Se encuentra orientada al alto rendimiento, y fue creada para soportar aplicaciones descentralizadas a gran escala con costos mínimos y confirmaciones casi inmediatas. Su diseño prioriza la eficiencia en la ejecución y la paralelización de transacciones.
@@ -40,6 +40,8 @@ El proceso de instalación finaliza cuando la terminal se reinicia y queda de la
 
 ![fin](images/fin.png)
 
+Puedes empezar creando un proyecto nuevo con `anchor init NOMBRE_PROYECTO`. Esto creará una carpeta con el nombre del proyecto donde podras empezar a trabajar!
+
 ## Solana Playground
 Solana Playground es un entorno de desarrollo online que permite escribir, compilar, desplegar y probar programas de Solana directamente desde el navegador, sin necesidad de instalar herramientas locales como Rust, Solana CLI o Anchor.
 
@@ -67,11 +69,9 @@ Como resultado se mostrará la siguiente información:
 
 * En azul: la cantidad de tokens en la wallet
 
-> ℹ️ ¿Quieres ver el ejemplo de un "Hola Mundo" en Solana?. Da clic aquí: 👉 [Ver Ejemplo](./build-deploy/README.md)
+## Carga del template en playground
 
-## ¿Listo para empezar?
-
-El primer paso es hacer `fork` al repositorio. Ya con el repositorio en tu cuenta lo siguiente que debes hacer es entrar a la carpeta `proyecto` y obtener el `permalink`:
+El primer paso es entrar a la carpeta `proyecto` y obtener el `permalink`:
 
 ![permalink](./images/permalink.png)
 
