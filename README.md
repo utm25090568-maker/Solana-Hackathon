@@ -40,7 +40,25 @@ El proceso de instalación finaliza cuando la terminal se reinicia y queda de la
 
 ![fin](images/fin.png)
 
-Puedes empezar creando un proyecto nuevo con `anchor init NOMBRE_PROYECTO`. Esto creará una carpeta con el nombre del proyecto donde podras empezar a trabajar!
+El `setup.sh` instala lo siguiente:
+
+* `rust`
+* dependencias para `Solana`
+* `Solana-cli`
+* `Anchor-cli`
+* `spl-token`
+* `surfpool`
+* `node` y `nvm`
+
+Finalmente, crea una carpeta llamada `template_codespaces` donde realiza el `build` de `anchor`, configura el RPC de `devnet` y crea una `wallet`.
+
+> ⚠️ Recuerda posicionarte en la carpeta creada con el comando `cd template_codespaces`
+
+Puedes ver la direccion de la wallet con el comando `solana address`
+
+El build del proyecto se hace con `anchor build` mientras que el despliegue con `anchor deploy`
+
+> ⚠️ Antes de hacer el deploy asegurate que en el archivo `anchor.toml` en la seccion `provider` sea: `cluster = "devnet"`
 
 ## Solana Playground
 Solana Playground es un entorno de desarrollo online que permite escribir, compilar, desplegar y probar programas de Solana directamente desde el navegador, sin necesidad de instalar herramientas locales como Rust, Solana CLI o Anchor.

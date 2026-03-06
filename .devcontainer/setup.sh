@@ -17,7 +17,9 @@ source "$HOME/.cargo/env"
 
 curl --proto '=https' --tlsv1.2 -sSfL https://solana-install.solana.workers.dev | bash
 
-export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+echo 'export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.bashrc
+
+echo 'export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"' >> ~/.profile
 
 solana --version
 
@@ -45,5 +47,3 @@ solana-keygen new --no-bip39-passphrase --outfile ~/.config/solana/id.json
 anchor build
 
 echo "Entorno listo para usar!!! :D"
-
-export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
