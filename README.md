@@ -52,7 +52,10 @@ El `setup.sh` instala lo siguiente:
 
 Finalmente, crea una carpeta llamada `template_codespaces` donde realiza el `build` de `anchor`, configura el RPC de `devnet` y crea una `wallet`.
 
-> ⚠️ Recuerda posicionarte en la carpeta creada con el comando `cd template_codespaces`
+> ⚠️ Al terminar el proceso de preparación del entorno es necesario ejecutar el siguiente comando: 
+```
+export PATH="$HOME/.local/share/solana/install/active_release/bin:$PATH"
+```
 
 Puedes ver la direccion de la wallet con el comando `solana address`
 
